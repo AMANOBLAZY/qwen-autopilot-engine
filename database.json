@@ -1,0 +1,21 @@
+{
+  "orders": {
+    "ORDER-123": {
+      "user_email": "customer@example.com",
+      "item": "Smart Thermostat",
+      "status": "Delivered",
+      "price": 150.0,
+      "eligible_for_refund": true
+    }
+  },
+  "refunds_processed": [
+    {
+      "order_id": "ORDER-123",
+      "amount": 150.0
+    },
+    {
+      "order_id": "wq2345",
+      "amount": 150.0
+    }
+  ]
+}
